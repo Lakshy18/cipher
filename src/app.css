@@ -23,7 +23,7 @@
 }
 .container {
   margin: 10px 10px 10px 20px;
-
+    
 }
 .thumbnail > img {
     width: 100%;
@@ -52,4 +52,52 @@
     justify-content:flex-end ;
     padding: 2px;
 }
-
+.detailContainer{
+  display: flex;
+}
+.videoDiscription{
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+}
+.displayName{
+  font-weight: bold;
+  font-size: 50px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.btnLink{
+  padding: 10px;
+  margin: 20px 20px 20px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: bold;
+  text-decoration: none;
+}
+.btnLink:hover{
+  background-color: black;
+  color: white;
+}
+.fuctionalities{
+ display: flex;
+ align-items: center;
+ justify-content:flex-start;
+  margin: 30px 10px 10px 10px ;
+  padding: 5px;
+}
+.videoImage{
+  flex: 1;
+}
+.videoImage > img{
+  width: 90%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.commnetsContainer{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  justify-content: center;
+}
