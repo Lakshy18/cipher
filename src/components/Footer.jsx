@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <div>
+      <div className="footer">This is footer</div>
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
